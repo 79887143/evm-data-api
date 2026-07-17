@@ -112,7 +112,7 @@ public class OnlinePlayerSyncJob {
         if (isError) {
             ThreadUtil.sleep(3 * 1000);
         } else {
-            ThreadUtil.sleep(20 * 1000);
+            ThreadUtil.sleep(60 * 1000);
         }
     }
 
